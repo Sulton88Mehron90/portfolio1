@@ -19,10 +19,10 @@ export default function Header() {
 
                     </li>
                     <li>
-                        <a href='projects'>Projects</a>
+                        <a href='#projects'>Projects</a>
                     </li>
                     <li>
-                        <a className='contact'>Contact</a>
+                        <a href='#contact'>Contact</a>
                     </li>
                 </ul>
             </nav>
