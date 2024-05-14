@@ -50,7 +50,7 @@ const Hero = () => {
                 <h1>Parvin A. Sattorova</h1>
                 <p>Front-End Software Developer</p>
                 <p>Lakewood, Colorado</p>
-                <Link href="#projects">Check out my work</Link>
+                <Link href="#projects">Check projects below</Link>
             </div>
         </section>
     );

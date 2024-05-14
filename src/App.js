@@ -5,6 +5,7 @@ import About from '../src/components/About'
 import Projects from '../src/components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import BackToTopButton from '../src/components/BackToTopButton.jsx'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Contact />
       </main>
       <Footer />
+      <BackToTopButton /> 
     </div>
   )
 }
