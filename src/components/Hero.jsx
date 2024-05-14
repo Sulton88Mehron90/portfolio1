@@ -12,10 +12,6 @@ const Hero = () => {
         <h1>Parvin A. Sattorova</h1>
         <p>Front-End Software Developer</p>
         <p>Lakewood, Colorado</p>
-        {/* <a href="#projects" className='btn'>
-         Check out my work
-       </a> */}
-
        <Link href="#projects">Check out my work</Link>
       </div>
     </section>
