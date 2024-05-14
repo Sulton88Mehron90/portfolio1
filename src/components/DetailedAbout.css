@@ -1,0 +1,45 @@
+.detailed-about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+  }
+  
+  .detailed-about h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: var(--headings);
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .detailed-about p {
+    font-size: 1rem;
+    color: var(--body-text);
+    margin-bottom: 1rem;
+  }
+  
+  .detailed-about p:last-of-type {
+    margin-bottom: 2rem;
+  }
+  
+  .detailed-about .btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    color: var(--white);
+    background-color: var(--primary);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .detailed-about .btn:hover {
+    background-color: var(--primary-shadow);
+    transform: translateY(-2px);
+  }
+  

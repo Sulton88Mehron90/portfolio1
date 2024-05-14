@@ -217,6 +217,11 @@ header {
   object-fit: cover; 
   border: 2px solid var(--primary); 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s ease-in-out;
+}
+
+.logo-container a:hover .logo {
+  transform: scale(1.1);
 }
 
 .menu-btn {
