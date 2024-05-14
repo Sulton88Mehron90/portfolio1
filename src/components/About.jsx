@@ -21,7 +21,7 @@ const About = () => {
                 I'm hopeful for an opportunity to join a team where I can grow and contribute to achieving the team's goals. If my story resonates with what your company seeks in a team member, I would love to hear from you.</p>
             <p>Best regards, Parvin</p>
 
-            <Link href="#">Download my Resume</Link>
+            <Link href="https://github.com/Sulton88Mehron90/showcase-project/blob/main/src/Images/ParvinASattorova-Resume-November3-2023.docx">Download my Resume</Link>
 
         </section>
     );
