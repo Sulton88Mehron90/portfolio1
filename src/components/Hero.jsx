@@ -23,13 +23,13 @@
 import React, { useRef } from 'react';
 import profileImage from '../assets/Dodobashara.JPG';
 import Link from '../components/Link';
-import namePrononce from '../assets/namePrononce.png';
+// import namePrononce from '../assets/namePrononce.png';
+import namePrononce from '../assets/namePronunce15.png';
 import ParvinPronunciation from '../assets/ParvinPronunciation.mov';
 
 const Hero = () => {
-    const videoRef = useRef(null); // Reference to the video element
+    const videoRef = useRef(null); 
 
-    // Function to play pronunciation video
     const playPronunciation = () => {
         if (videoRef.current) {
             videoRef.current.play();
