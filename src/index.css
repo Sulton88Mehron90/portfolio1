@@ -181,8 +181,8 @@ header button:hover {
   position: absolute;
   rotate: 10deg;
   position: relative;
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   background-color: var(--secondary);
 }
 
