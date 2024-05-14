@@ -14,12 +14,13 @@ import interviewPrepQuestions from '../assets/interviewPrepQuestions.png'
 import flashCards from '../assets/flashCards.png'
 import Project from '../components/Project'
 import React from 'react';
+import ideaBox from '../assets/ideaBox.png'
 
 const projectList = [
   {
     id: 1,
     title: 'Avicenna Method',
-    tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'Node.js', 'Git', 'GitHub'],
+    tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'Node.js', 'GitHub'],
     description:
       'Dive into a world of curiosity with Avicenna Method! Named after the legendary polymath Avicenna (Ibn Sina), this trivia application is designed for those who seek a delightful blend of challenge and learning. Avicenna Method offers trivia enthusiasts and casual learners a chance to test and expand their knowledge across diverse categories. With a focus on a seamless user experience, app lets users tailor their quiz sessions and discover new facts in an engaging manner.',
     liveLink: 'https://showcase-project-khaki.vercel.app/',
@@ -29,7 +30,7 @@ const projectList = [
   {
     id: 2,
     title: 'Rancid Tomatillos',
-    tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'Adobe Photoshop', 'GitHub', 'Heroku'],
+    tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'GitHub', 'Heroku'],
     description:
       'Welcome to Rancid Tomatillos, your go-to platform for all things cinema! Browse our extensive library of movies, delve into detailed information on each film, and even watch trailers. Use the search feature to find movies that pique your interest, or filter films based on ratings to discover hidden gems.',
     liveLink: 'https://rancid-tomatillos-denzel-parvin.vercel.app/',
@@ -39,7 +40,7 @@ const projectList = [
   {
     id: 3,
     title: 'Refuge - AidConnect/RefugeeAid',
-    tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'GitHub', 'GraphQL', 'Apollo Client', 'Node.js', 'Postman'],
+    tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'GitHub', 'GraphQL', 'Apollo Client'],
     description:
       'App stands as a beacon for change, seamlessly bridging the gap between aid workers, compassionate citizens, and those in dire need within displaced communities. It offers a real-time feed of specific needs, ensuring targeted, efficient, and impactful assistance. This platform embodies the spirit of global solidarity, enabling connections that empower and unite.',
     liveLink: 'https://refugee-aid-fe.vercel.app/',
@@ -149,12 +150,22 @@ const projectList = [
   {
     id: 14,
     title: 'Interview Prep Questions',
-    tech: ['React', 'React Router', 'TypeScript', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'API', 'Node.js', 'GitHub'],
+    tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'API', 'Node.js', 'GitHub'],
     description:
       "The Interview Prep Questions App is a dynamic tool designed to assist job seekers, particularly in software development, in preparing for technical and behavioral interviews. It was inspired while getting ready for an interview simulation with an instructor, and built in 7 hours throughout the day. This user-friendly app offers a range of questions and answers, presented in an interactive flashcard format, making your interview preparation engaging and effective.",
     liveLink: 'https://interview-prep-questions.vercel.app/',
     githubLink: 'https://github.com/Sulton88Mehron90/interview-prep-questions',
     image: interviewPrepQuestions,
+  },
+  {
+    id: 15,
+    title: 'Idea Box',
+    tech: ['React', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Node.js', 'GitHub'],
+    description:
+      "The Interview Prep Questions App is a dynamic tool designed to assist job seekers, particularly in software development, in preparing for technical and behavioral interviews. It was inspired while getting ready for an interview simulation with an instructor, and built in 7 hours throughout the day. This user-friendly app offers a range of questions and answers, presented in an interactive flashcard format, making your interview preparation engaging and effective.",
+    liveLink: 'https://idea-box-one-react.vercel.app/',
+    githubLink: 'https://github.com/Sulton88Mehron90/idea-box-one-react',
+    image: ideaBox,
   }
 ];
 
