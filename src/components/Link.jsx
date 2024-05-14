@@ -1,16 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 const Link = ({ href, children }) => {
-    return (
-        <a href={href} className='btn'>{children}</a>
-    );
-}
-
+  return (
+    <a href={href} className="btn">
+      {children}
+    </a>
+  );
+};
 export default Link;
 
-Link.propType = {
-    href: PropTypes.string.isRequired,
-    children: PropTypes.string.isRequired,
-
-}
+Link.propTypes = {
+  href: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};

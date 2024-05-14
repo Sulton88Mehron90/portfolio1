@@ -32,7 +32,7 @@ export default Project;
 
 Project.propTypes = {
   data: PropTypes.shape({
-    id: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     tech: PropTypes.arrayOf(PropTypes.string).isRequired,
     description: PropTypes.string.isRequired,

@@ -205,3 +205,193 @@
 //   );
 // };
 // export default Projects;
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global CSS Variables */
+:root {
+  --body-bg: #ffffff; /* White */
+  --header-text: #000000; /* Black */
+  --body-text: #333333; /* Dark Gray */
+  --headings: #005f73; /* Dark Islamic Blue */
+  --primary: #0a9396; /* Islamic Green */
+  --primary-shadow: #94d2bd; /* Light Islamic Green */
+  --secondary: #005f73; /* Dark Islamic Blue */
+  --secondary-shadow: #94d2bd; /* Light Islamic Blue */
+  --white: #ffffff; /* White */
+
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+/* BASE STYLES */
+
+body {
+  background-color: var(--body-bg);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: var(--white);
+  margin-inline: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 470px;
+  margin-bottom: 3.5rem;
+  position: relative;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+h1, h2, h3 {
+  color: var(--headings);
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+li, a, .body-text, .about p, .project p {
+  list-style: none;
+  text-decoration: none;
+  color: var(--body-text);
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section-square, .divider:after {
+  rotate: 10deg;
+}
+
+/* Modern Button Style */
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--primary);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--primary-shadow);
+  transform: translateY(-2px);
+}
+
+/* HEADER */
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: var(--header-text);
+  background-color: var(--primary);
+}
+
+header span, header button {
+  min-width: fit-content;
+  cursor: pointer;
+  background: none;
+  border: none;
+  fill: var(--header-text);
+  transition: fill 0.3s ease;
+  z-index: 100;
+}
+
+header button:hover {
+  fill: var(--secondary);
+}
+
+/* HERO SECTION */
+
+.hero .image:after {
+  content: '';
+  rotate: 10deg;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  background-color: var(--secondary);
+}
+
+.hero .image img {
+  position: absolute;
+  z-index: 10;
+  width: 200px;
+  background-color: var(--body-bg);
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+
+/* CONTACT and SOCIALS */
+
+.contact p, .socials-container svg {
+  color: var(--primary);
+  fill: var(--secondary);
+}
+
+.socials-container svg:hover {
+  transform: scale(1.2);
+  fill: var(--secondary-shadow);
+}
+
+/* FOOTER */
+
+footer {
+  padding-block: 1.5rem;
+  font-size: 0.75rem;
+  color: var(--header-text);
+  background-color: var(--primary);
+}
+
+/* MEDIA QUERIES and LAYOUT ADJUSTMENTS for responsiveness */
+
+@media (min-width: 1024px) {
+  .nav, .hero, .project, header, main, footer {
+    /* Layout and font size adjustments for larger screens */
+  }
+}

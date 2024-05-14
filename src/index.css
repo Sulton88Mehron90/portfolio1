@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
-/* Universal Presets */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,17 +8,20 @@
 
 /* Global CSS Variables */
 :root {
-  --body-bg: #fef2dc;
-  --header-text: #fef7e9;
-  --body-text: #050505;
-  --headings: #b65949;
-  --primary: #006361;
-  --primary-shadow: #0d4645;
-  --secondary: #d8a25a;
-  --secondary-shadow: #ab8147;
-  --white: #ffffff;
+ 
+  --body-bg: #ffffff; /* White */
+  --header-text: #000000; /* Black */
+  --body-text: #333333; /* Dark Gray */
+  --headings: #005f73; /* Dark Islamic Blue */
+  --primary: #0a9396; /* Islamic Green */
+  --primary-shadow: #94d2bd; /* Light Islamic Green */
+  --secondary: #005f73; /* Dark Islamic Blue */
+  --secondary-shadow: #94d2bd; /* Light Islamic Blue */
+  --white: #ffffff; /* White */
+  --tech-color:#E50914; /* Netflix's signature red */; 
 
-  font-family: 'Young Serif', serif;
+
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   scroll-behavior: smooth;
 }
@@ -44,6 +47,7 @@ section {
   align-items: center;
   max-width: 470px;
   margin-bottom: 3.5rem;
+  position: relative;
 }
 
 section:last-of-type {
@@ -95,19 +99,21 @@ img {
   margin-bottom: 1.5rem;
 }
 
-/* UTILITY CLASSES */
+/* Modern Button Style */
 
 .btn {
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  color: var(--header-text);
-  background-color: var(--secondary);
-  box-shadow: 0 2px var(--secondary-shadow);
-  transition: background-color 0.3s ease;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--primary);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+  font-weight: 500; 
+  transition: all 0.3s ease; 
 }
 
 .btn:hover {
-  background-color: var(--secondary-shadow);
+  background-color: var(--primary-shadow);
+  transform: translateY(-2px); 
 }
 
 .divider {
@@ -178,11 +184,11 @@ header button:hover {
 
 .hero .image:after {
   content: '';
-  position: absolute;
+  /* position: absolute; */
   rotate: 10deg;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
   background-color: var(--secondary);
 }
 
@@ -191,6 +197,7 @@ header button:hover {
   z-index: 10;
   width: 200px;
   background-color: var(--body-bg);
+  /* padding-right: 10px; */
 }
 
 .hero p {
@@ -244,7 +251,9 @@ header button:hover {
   border-radius: 10px;
   font-size: 0.7rem;
   color: var(--header-text);
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
+  background-color:#f4f4f4;
+  color: var(--tech-color); 
   box-shadow: 0 1px var(--primary-shadow);
 }
 
@@ -297,7 +306,7 @@ footer {
 .nav {
   position: absolute;
   z-index: 50;
-  top: 40px; /* moved lower later */
+  top: 40px; 
   left: 0;
   width: 100%;
   padding-block: 2rem;
@@ -434,3 +443,12 @@ footer {
     font-size: 1rem;
   }
 }
+
+
+/* MEDIA QUERIES and LAYOUT ADJUSTMENTS for responsiveness */
+/* 
+@media (min-width: 1024px) {
+  .nav, .hero, .project, header, main, footer { */
+    /* Layout and font size adjustments for larger screens */
+  /* }
+} */
