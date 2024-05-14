@@ -12,11 +12,11 @@
   --body-bg: #ffffff; /* White */
   --header-text: #000000; /* Black */
   --body-text: #333333; /* Dark Gray */
-  --headings: #005f73; /* Dark Islamic Blue */
-  --primary: #0a9396; /* Islamic Green */
-  --primary-shadow: #94d2bd; /* Light Islamic Green */
-  --secondary: #005f73; /* Dark Islamic Blue */
-  --secondary-shadow: #94d2bd; /* Light Islamic Blue */
+  --headings: #005f73; /* Dark Blue */
+  --primary: #0a9396; /* Green */
+  --primary-shadow: #94d2bd; /* Light Green */
+  --secondary: #005f73; /* Dark Blue */
+  --secondary-shadow: #94d2bd; /* Light Blue */
   --white: #ffffff; /* White */
   --tech-color:#E50914; /* Netflix's signature red */; 
 
@@ -172,27 +172,54 @@ img {
   transform: translateY(-2px);
 }
 
-
-
-
 /* HEADER */
 
 header {
   position: relative;
   display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: var(--primary);
+  padding: 0.5rem 1rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box; 
+}
+
+.header-content {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  color: var(--header-text);
-  background-color: var(--primary);
+  width: 100%;
 }
 
-header span {
-  min-width: fit-content;
-  z-index: 999;
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
 
-header button {
+.logo-container a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo {
+  /* font-family: 'Young Serif', serif;
+  font-size: 1.5rem;
+  font-weight: bold; */
+
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 2px solid var(--primary); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-btn {
   cursor: pointer;
   height: 24px;
   width: 24px;
@@ -200,11 +227,77 @@ header button {
   border: none;
   fill: var(--header-text);
   transition: fill 0.3s ease;
-  z-index: 100;
 }
 
-header button:hover {
+.menu-btn:hover {
   fill: var(--secondary);
+}
+
+.nav {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary);
+  transform: translateY(-200%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 99;
+}
+
+.nav.open {
+  transform: translateY(0);
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 1rem 0;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: var(--header-text);
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: var(--secondary);
+}
+
+@media (min-width: 768px) {
+  .nav {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    transform: translateY(0);
+    background: none;
+    padding: 0;
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav ul li {
+    margin: 0;
+  }
+
+  .nav ul li a {
+    font-size: 1rem;
+  }
+
+  .menu-btn {
+    display: none;
+  }
 }
 
 /* HERO SECTION */
@@ -355,29 +448,42 @@ header button:hover {
 /* FOOTER */
 
 footer {
-  padding-block: 1.5rem;
-  font-size: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1.5rem 2rem; */
+  padding: 0.5rem 1rem; 
+  background-color: var(--primary);
   color: var(--header-text);
-  background-color: var(--primary);
-  margin-inline: 1rem;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.nav {
-  position: absolute;
-  z-index: 50;
-  top: 40px; 
-  left: 0;
-  width: 100%;
-  padding-block: 2rem;
-  font-size: 2.5rem;
-  background-color: var(--primary);
-  transform: translateY(-120%);
-  transition: transform 0.3s ease;
+.socials-container {
+  display: flex;
+  gap: 1rem;
 }
 
-.nav.open {
-  transform: translateX(0%);
+.socials-container a {
+  color: var(--header-text);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
+
+.socials-container a:hover {
+  transform: scale(1.2);
+  color: var(--secondary);
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 0.75rem 1.5rem; 
+  }
+
+  .socials-container a {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 
 /* MEDIA QUERIES */
 @media (min-width: 576px) {

@@ -1,15 +1,20 @@
 import React, { useState } from 'react'
 import menu from '../assets/open_menu.svg'
 import close from '../assets/close_menu.svg'
+import '../index.css'
+import Logo from '../components/Logo'
 
 export default function Header() {
 
     const [isOpen, setIsOpen] = useState(false)
     return (
         <header>
-            <span>
+            {/* <span>
                 Parvin A. Sattorova
-            </span>
+            </span> */}
+
+<div className="header-content">
+        <Logo /> 
             <button className="menu-btn"
                 onClick={() => setIsOpen(!isOpen)}
                 area-label='Navigation Menu'
@@ -18,7 +23,7 @@ export default function Header() {
                 <img src={isOpen? close :menu} alt='menu' />
 
             </button>
-
+</div>
             <nav className={`nav ${isOpen ? 'open': ''}`} >
                 <ul>
                     <li>

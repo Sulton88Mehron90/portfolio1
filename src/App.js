@@ -7,6 +7,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import BackToTopButton from '../src/components/BackToTopButton.jsx'
 
+
 export default function App() {
   return (
     <div>
