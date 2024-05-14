@@ -38,10 +38,10 @@ const Hero = () => {
 
     return (
         <section className="hero divider">
-            <div className="image" style={{ position: 'relative' }}>
+            <div className="image">
                 <img src={profileImage} alt="Portrait of Parvin A. Sattorova" />
-                <button className='name-voice' onClick={playPronunciation} style={{ position: 'absolute', bottom: 10, right: 10 }}>
-                    <img src={namePrononce} alt='Play name pronunciation' />
+                <button className="name-voice" onClick={playPronunciation}>
+                    <img src={namePrononce} alt="Play name pronunciation" className="icon-image" />
                 </button>
                 {/* Hidden video element for pronunciation */}
                 <video ref={videoRef} src={ParvinPronunciation} style={{ display: 'none' }}></video>

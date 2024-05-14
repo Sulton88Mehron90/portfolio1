@@ -395,3 +395,454 @@ footer {
     /* Layout and font size adjustments for larger screens */
   }
 }
+
+
+
+
+
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Young+Serif&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global CSS Variables */
+:root {
+  --body-bg: #ffffff; /* White */
+  --header-text: #000000; /* Black */
+  --body-text: #333333; /* Dark Gray */
+  --headings: #005f73; /* Dark Islamic Blue */
+  --primary: #0a9396; /* Islamic Green */
+  --primary-shadow: #94d2bd; /* Light Islamic Green */
+  --secondary: #005f73; /* Dark Islamic Blue */
+  --secondary-shadow: #94d2bd; /* Light Islamic Blue */
+  --white: #ffffff; /* White */
+  --tech-color: #E50914; /* Netflix's signature red */;
+  
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+/* BASE STYLES */
+body {
+  background-color: var(--body-bg);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: var(--white);
+  margin-inline: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 470px;
+  margin-bottom: 3.5rem;
+  position: relative;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+  color: var(--headings);
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+  color: var(--headings);
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: var(--primary);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section-square {
+  rotate: 10deg;
+}
+
+.hero p:last-of-type,
+.about p:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+/* Modern Button Style */
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--primary);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--primary-shadow);
+  transform: translateY(-2px);
+}
+
+.divider {
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+.divider:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  rotate: 10deg;
+}
+
+.body-text,
+.about p,
+.project p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75rem;
+  line-height: 2;
+  color: var(--body-text);
+}
+
+/* HEADER */
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: var(--header-text);
+  background-color: var(--primary);
+}
+
+header span {
+  min-width: fit-content;
+  z-index: 999;
+}
+
+header button {
+  cursor: pointer;
+  height: 24px;
+  width: 24px;
+  background: none;
+  border: none;
+  fill: var(--header-text);
+  transition: fill 0.3s ease;
+  z-index: 100;
+}
+
+header button:hover {
+  fill: var(--secondary);
+}
+
+/* HERO SECTION */
+
+.hero .image img {
+  position: relative;
+  z-index: 10;
+  width: 200px;
+  background-color: var(--body-bg);
+}
+
+.image {
+  position: relative;
+  display: inline-block;
+}
+
+.name-voice {
+  width: 24px; /* Smaller size */
+  height: 24px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-image {
+  width: 16px; /* Make the icon smaller inside the button */
+  height: 16px;
+  border-radius: 50%;
+}
+
+/* OTHER STYLES */
+.hero p {
+  font-size: 1.2rem;
+  color: var(--secondary);
+}
+
+.hero p:last-of-type {
+  font-size: 0.9rem;
+}
+
+/* ABOUT */
+.about p {
+  margin-bottom: 1rem;
+}
+
+/* PROJECTS */
+.project {
+  margin-bottom: 2.5rem;
+}
+
+.project:last-of-type {
+  margin-bottom: 0;
+}
+
+.project .image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+  aspect-ratio: 16/9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.project .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  text-align: center;
+}
+
+.project .content ul {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project .content ul li {
+  padding: 0.4rem 0.7rem;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  color: var(--header-text);
+  background-color: #f4f4f4;
+  color: var(--tech-color);
+  box-shadow: 0 1px var(--primary-shadow);
+}
+
+.project .content p {
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+.project .content div {
+  display: flex;
+  gap: 0.3rem;
+}
+
+/* CONTACT */
+.contact p {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--primary);
+}
+
+.socials-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials-container svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--secondary);
+  transition: transform 0.3s ease, fill 0.3s ease;
+}
+
+.socials-container svg:hover {
+  transform: scale(1.2);
+  fill: var(--secondary-shadow);
+}
+
+/* FOOTER */
+footer {
+  padding-block: 1.5rem;
+  font-size: 0.75rem;
+  color: var(--header-text);
+  background-color: var(--primary);
+  margin-inline: 1rem;
+}
+
+.nav {
+  position: absolute;
+  z-index: 50;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  padding-block: 2rem;
+  font-size: 2.5rem;
+  background-color: var(--primary);
+  transform: translateY(-120%);
+  transition: transform 0.3s ease;
+}
+
+.nav.open {
+  transform: translateX(0%);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 1024px) {
+  header button {
+    display: none;
+  }
+
+  .nav {
+    position: static;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0;
+    font-size: 1.5rem;
+    background-color: transparent;
+    transform: translateY(0%);
+    padding-block: 0;
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 3rem;
+  }
+
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .project {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 4rem;
+  }
+
+  .project div {
+    flex-basis: 50%;
+  }
+
+  .socials-container {
+    gap: 2rem;
+  }
+
+  .socials-container svg {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* FONT SIZES & SPACING */
+  header,
+  main,
+  footer {
+    max-width: 992px;
+    margin-inline: auto;
+    padding-inline: 3rem;
+  }
+
+  main {
+    padding-block: 6rem;
+  }
+
+  section {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 6.5rem;
+  }
+
+  .section-square {
+    margin-bottom: 6rem;
+  }
+
+  .about p {
+    margin-bottom: 2rem;
+  }
+
+  .project .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .contact p {
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    padding-block: 3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+
+  h3,
+  .hero p {
+    font-size: 1.5rem;
+  }
+
+  .body-text,
+  .about p,
+  .project p {
+    font-size: 1.25rem;
+  }
+
+  header {
+    font-size: 1.15rem;
+  }
+
+  .project .content p,
+  .hero p:last-of-type,
+  .contact p,
+  footer {
+    font-size: 1rem;
+  }
+}
