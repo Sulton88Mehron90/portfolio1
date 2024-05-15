@@ -37,9 +37,8 @@ const DetailedAbout = () => {
         what your company seeks in a team member, I would love to hear from you.
       </p>
       <p>Best regards, Parvin</p>
-      <Link href="https://github.com/Sulton88Mehron90/showcase-project/blob/main/src/Images/ParvinASattorova-Resume-November3-2023.docx">
-        Download my Resume
-      </Link>
+      <Link href="https://docs.google.com/document/d/1egLhxEtaT5PdwMK0A4qh9j5EmbBL68fF/export?format=docx" className="btn">Download my Resume</Link>
+
     </section>
   );
 };
