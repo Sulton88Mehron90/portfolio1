@@ -19,6 +19,8 @@
   --secondary-shadow: #94d2bd; /* Light Blue */
   --white: #ffffff; /* White */
   --tech-color:#E50914; /* Netflix's signature red */; 
+  --active-link-color: #005f73; /* Highlight color for active link */
+  --highlight-glow: rgba(0, 255, 251, 0.871); /* Glow color for active link */
 
 
   font-family: 'Roboto', sans-serif;
@@ -82,6 +84,7 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 img {
@@ -109,6 +112,7 @@ img {
   box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
   font-weight: 500; 
   transition: all 0.3s ease; 
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -177,14 +181,14 @@ img {
 header {
   position: relative;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   background-color: var(--primary);
-  padding: 0.5rem 1rem; 
+  padding: 0.5rem 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 100%;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 .header-content {
@@ -204,18 +208,15 @@ header {
 .logo-container a {
   display: inline-block;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .logo {
-  /* font-family: 'Young Serif', serif;
-  font-size: 1.5rem;
-  font-weight: bold; */
-
-  width: 50px; 
+  width: 50px;
   height: 50px;
-  border-radius: 50%; 
-  object-fit: cover; 
-  border: 2px solid var(--primary); 
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.6s ease-in-out;
 }
@@ -265,45 +266,24 @@ header {
   margin: 1rem 0;
 }
 
-.nav ul li a {
+.nav ul li .nav-link {
   text-decoration: none;
   color: var(--header-text);
   font-size: 1.2rem;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  padding: 0.5rem;
 }
 
-.nav ul li a:hover {
+.nav ul li .nav-link:hover {
   color: var(--secondary);
 }
 
-@media (min-width: 768px) {
-  .nav {
-    position: static;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    transform: translateY(0);
-    background: none;
-    padding: 0;
-  }
-
-  .nav ul {
-    display: flex;
-    gap: 2rem;
-  }
-
-  .nav ul li {
-    margin: 0;
-  }
-
-  .nav ul li a {
-    font-size: 1rem;
-  }
-
-  .menu-btn {
-    display: none;
-  }
+.nav-link.active-link {
+  color: var(--active-link-color);
+  box-shadow: 0px 4px 10px var(--highlight-glow);
 }
+
 
 /* HERO SECTION */
 
@@ -349,6 +329,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .icon-image {
@@ -368,12 +349,31 @@ header {
 
 /* ABOUT */
 
+.about .read-more-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about .read-more-link:hover {
+  background-color: var(--primary-shadow);
+  transform: translateY(-2px);
+}
+
+
 .about p {
   margin-bottom: 1rem;
 }
 
 /* PROJECTS */
-
+/* 
 .project {
   margin-bottom: 2.5rem;
 }
@@ -408,7 +408,6 @@ header {
   border-radius: 10px;
   font-size: 0.7rem;
   color: var(--header-text);
-  /* background-color: var(--primary); */
   background-color:#f4f4f4;
   color: var(--tech-color); 
   box-shadow: 0 1px var(--primary-shadow);
@@ -424,6 +423,101 @@ header {
   display: flex;
   gap: 0.3rem;
 }
+
+.read-more-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background-color: var(--primary);
+  color: var(--white);
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.read-more-link:hover {
+  background-color: var(--primary-shadow);
+  transform: translateY(-2px);
+}
+ */
+
+ /* Project.css */
+.project {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem; /* Add padding inside each project */
+  border: 1px solid #ddd; /* Add a border for visual separation */
+  border-radius: 8px; /* Round the corners */
+  background-color: #fff; /* Add a background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.project:last-of-type {
+  margin-bottom: 0;
+}
+
+.project .image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem; /* Increase bottom margin */
+  aspect-ratio: 16/9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.project .content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem; /* Increase gap between content items */
+  text-align: center;
+}
+
+.project .content ul {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center; /* Center the list items */
+  flex-wrap: wrap; /* Wrap the list items to the next line if needed */
+}
+
+.project .content ul li {
+  padding: 0.4rem 0.7rem;
+  border-radius: 10px;
+  font-size: 0.8rem; /* Slightly increase font size */
+  background-color: #f4f4f4; /* Fallback background color */
+  color: var(--tech-color); 
+  box-shadow: 0 1px var(--primary-shadow);
+}
+
+.project .content p {
+  margin-bottom: 1rem;
+  font-size: 0.8rem; /* Slightly increase font size */
+  line-height: 1.5;
+}
+
+.project .content div {
+  display: flex;
+  gap: 0.5rem; /* Increase gap between links */
+  justify-content: center; /* Center the links */
+}
+
+.project .content .links a {
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.8rem; /* Slightly increase font size */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project .content .links a:hover {
+  background-color: var(--primary-shadow);
+  transform: translateY(-2px);
+}
+
+
 
 /* CONTACT */
 
@@ -443,6 +537,7 @@ header {
   height: 20px;
   fill: var(--secondary);
   transition: transform 0.3s ease, fill 0.3s ease;
+  cursor: pointer;
 }
 
 .socials-container svg:hover {
@@ -456,7 +551,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 1.5rem 2rem; */
   padding: 0.5rem 1rem; 
   background-color: var(--primary);
   color: var(--header-text);
@@ -471,6 +565,7 @@ footer {
 .socials-container a {
   color: var(--header-text);
   transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
 }
 
 .socials-container a:hover {
@@ -515,79 +610,38 @@ footer {
   .btn {
     padding: 1rem 2rem;
     font-size: 1.1rem;
+    cursor: pointer;
   }
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
   .nav {
+    position: static;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-  }
-
-  .hero {
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-    align-items: center;
-  }
-
-  .hero .image {
-    margin-bottom: 0;
-  }
-
-  .hero .image:after {
-    content: '';
-    position: absolute;
-    rotate: 10deg;
-    width: 240px;
-    height: 240px;
-    background-color: var(--secondary);
-    z-index: 5;
-  }
-  
-  .hero .image img {
-    position: relative;
-    z-index: 10;
-    width: 200px;
-    background-color: var(--body-bg);
-  }
-
-  .hero .name-voice {
-    position: absolute;
-    z-index: 15;
-  }
-
-  .project {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-    text-align: left;
-    margin-bottom: 3rem;
-  }
-
-  .project div {
-    flex-basis: 50%;
-  }
-
-  .contact p {
-    font-size: 1rem;
-  }
-
-  .socials-container svg {
-    width: 30px;
-    height: 30px;
-  }
-
-  footer {
-    padding-block: 2rem;
+    transform: translateY(0);
+    background: none;
+    padding: 0;
   }
 
   .nav ul {
     display: flex;
     gap: 2rem;
   }
-} */
+
+  .nav ul li {
+    margin: 0;
+  }
+
+  .nav ul li .nav-link {
+    font-size: 1rem;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+}
 
 @media (min-width: 992px) {
   header,

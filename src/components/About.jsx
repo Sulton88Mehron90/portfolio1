@@ -46,7 +46,7 @@ const About = () => {
         craft of code that brings visuals to the forefront, making people's
         moments spent on the web or app enjoyable and seamless.
       </p>
-      <Link to="/detailed-about">Read more...</Link>
+      <Link to="/detailed-about" className="read-more-link">Read more...</Link>
     </section>
   );
 };

@@ -1,0 +1,88 @@
+/* PROJECTS */
+
+.project {
+    margin-bottom: 2.5rem;
+  }
+  
+  .project:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  .project .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+    aspect-ratio: 16/9;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .project .content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    text-align: center;
+  }
+  
+  .project .content ul {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center; /* Center the list items */
+    flex-wrap: wrap; /* Wrap the list items to the next line if needed */
+  }
+  
+  .project .content ul li {
+    padding: 0.4rem 0.7rem;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    background-color: #f4f4f4; /* Fallback background color */
+    color: var(--tech-color); 
+    box-shadow: 0 1px var(--primary-shadow);
+  }
+  
+  .project .content p {
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+    line-height: 1.5;
+  }
+  
+  .project .content .links {
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center; /* Center the links */
+  }
+  
+  .project .content .links a {
+    padding: 0.4rem 0.7rem;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: var(--white);
+    text-decoration: none;
+    font-size: 0.7rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project .content .links a:hover {
+    background-color: var(--primary-shadow);
+    transform: translateY(-2px);
+  }
+  
+  .read-more-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .read-more-link:hover {
+    background-color: var(--primary-shadow);
+    transform: translateY(-2px);
+  }
+  

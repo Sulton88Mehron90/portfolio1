@@ -931,3 +931,76 @@ header button:hover {
 // };
 // export default Hero;
 ////
+
+
+
+/* @media (min-width: 768px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+  }
+
+  .hero .image {
+    margin-bottom: 0;
+  }
+
+  .hero .image:after {
+    content: '';
+    position: absolute;
+    rotate: 10deg;
+    width: 240px;
+    height: 240px;
+    background-color: var(--secondary);
+    z-index: 5;
+  }
+  
+  .hero .image img {
+    position: relative;
+    z-index: 10;
+    width: 200px;
+    background-color: var(--body-bg);
+  }
+
+  .hero .name-voice {
+    position: absolute;
+    z-index: 15;
+  }
+
+  .project {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+
+  .project div {
+    flex-basis: 50%;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+
+  .socials-container svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  footer {
+    padding-block: 2rem;
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 2rem;
+  }
+} */
