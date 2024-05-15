@@ -170,23 +170,6 @@ export const projectList = [
   }
 ];
 
-
-// const Projects = () => {
-//   return (
-//     <section id="projects" className="divider">
-//       <h2>My Projects</h2>
-//       <div>
-//         {projectList.map((project, i) => (
-//           <Project key={project.id} data={project} reverse={i % 2 === 0} />
-//           // <Project key={project.id} data={project} reverse={true} />
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-// export default Projects;
-
-
 const Projects = () => {
   return (
     <section id="projects" className="divider">

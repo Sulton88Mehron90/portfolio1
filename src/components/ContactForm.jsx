@@ -1,5 +1,6 @@
   // https://formspree.io/f/mqkrjwek
-  import React, { useState } from 'react';
+  
+import React, { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Icons } from './Icons';
@@ -7,6 +8,11 @@ import '../components/ContactForm.css';
 import '../index.css';
 
 const ContactForm = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   const [formData, setFormData] = useState({
     email: '',
     name: '',
