@@ -333,7 +333,11 @@ header {
   rotate: 10deg;
   width: 240px;
   height: 240px;
-  background-color: var(--secondary);
+  /* background-color: var(--secondary); */
+  background-image: url('../src/assets/logofoto.png'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero .image img {
@@ -758,6 +762,10 @@ footer {
   color: var(--header-text);
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
+/* 
+footer span {
+  font-size: 0.875rem; 
+} */
 
 .socials-container {
   display: flex;
@@ -777,7 +785,7 @@ footer {
 
 @media (min-width: 768px) {
   footer {
-    padding: 0.75rem 1.5rem;
+    padding: 0.5rem 1rem;
   }
 
   .socials-container a {
