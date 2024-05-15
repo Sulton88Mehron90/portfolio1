@@ -1,42 +1,69 @@
+<div align="left">
+  <h1 style="color:red; display: inline;">
+    Portfolio
+    <img src="src/assets/arias.png" alt="Profile Picture" width="105" style="margin-left: 5px; border-radius: 50%; vertical-align: middle;">
+  </h1>
+</div>
 
-### <span style="color:#2E8B57;">Live Demo</span>
-
-check my portfolio in react. [first portfolio, wish me luck](https://portfolio1-swart-six.vercel.app/).
+Welcome to my personal portfolio! This portfolio showcases a collection of my projects, collaborations, and the skills I have acquired over the years. It's a reflection of my journey as a Front-End Developer and the work I am passionate about.
 
 <img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/11311fac-e5a5-4ee8-aa0c-f1008cb1ad03">
 
+### Description
 
-# Portfolio
+My portfolio is a dynamic and interactive showcase of my professional work, projects, and achievements. It is designed to provide a comprehensive view of my skills, experience, and contributions to various projects.
 
-Welcome to my portfolio repository! This project showcases my skills, projects, and professional experience as a front-end developer.
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/11311fac-e5a5-4ee8-aa0c-f1008cb1ad03">
 
-## Overview
+### <span style="color:#2E8B57;">Live Demo</span>
 
-This portfolio is designed to provide a comprehensive overview of my work, including various projects I've worked on, my technical skills, and my professional background. It's built using modern web development technologies to ensure a smooth and engaging user experience.
+Explore: [View Portfolio](https://portfolio1-swart-six.vercel.app/).
 
-## Features
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/11311fac-e5a5-4ee8-aa0c-f1008cb1ad03">
 
-- **Responsive Design:** Accessible on all devices from desktops to smartphones.
-- **Interactive UI:** Engaging user interface with smooth animations and transitions.
-- **Project Showcase:** Detailed descriptions, technologies used, and links to live demos and source code for each project.
-- **Contact Form:** Easy way for visitors to get in touch with me.
-- **Social Media Links:** Connect with me on various platforms.
+### Features
 
-## Technologies Used
+- **Responsive Design**: Optimized for seamless viewing on devices of all sizes.
+- **Interactive Projects Section**: Detailed view of my projects with descriptions, technologies used, and links to live demos.
+- **Contact Form**: Easy-to-use form to get in touch with me directly through the website.
+- **Social Media Integration**: Links to my social media profiles for further connection.
 
-- **HTML5**
-- **CSS3** (with custom animations)
-- **JavaScript** (React framework)
-- **React**
-- **React Router**
-- **Node.js**
-- **Formspree** (for contact form handling)
-- **Toastify** (for notifications)
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/11311fac-e5a5-4ee8-aa0c-f1008cb1ad03">
 
-## Getting Started
+### Technologies
 
-To view the portfolio locally, follow these steps:
+My portfolio is built using modern web technologies:
+<div align="left">
+  <a href="https://www.javascript.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" style="margin: 10px;"></a>
+  <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" style="margin: 10px;"></a>
+  <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" style="margin: 10px;"></a>
+  <a href="https://react.dev/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" style="margin: 10px;"></a>
+  <a href="https://github.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" style="margin: 10px;"></a>
+  <a href="https://vercel.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/vercel-icon.svg" alt="Vercel" height="50" style="margin: 10px;"></a>
+</div>
 
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/yourusername/portfolio.git
+<img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/11311fac-e5a5-4ee8-aa0c-f1008cb1ad03">
+
+### Installation
+1. Clone the repository:
+   ```
+   git clone https://github.com/Sulton88Mehron90/portfolio1
+   ```
+2. Navigate to the project directory:
+   ```
+   cd portfolio
+   ```
+3. Install dependencies:
+   ```
+   npm install
+   ```
+4. Start the application:
+   ```
+   npm start
+   ```
+<div align="right">
+  <h1 style="color:red; display: inline;">
+    Thank you
+    <img src="src/assets/arias.png" alt="Profile Picture" width="105" style="margin-left: 5px; border-radius: 50%; vertical-align: middle;">
+  </h1>
+</div>
