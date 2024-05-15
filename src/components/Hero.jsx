@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import profileImage from '../assets/Dodobashara.JPG';
 import Link from '../components/Link';
-// import namePrononce from '../assets/namePrononce.png';
 import namePrononce from '../assets/namePronunce15.png';
 import ParvinPronunciation from '../assets/ParvinPronunciation.mov';
 
@@ -24,11 +23,14 @@ const Hero = () => {
                 {/* Hidden video element for pronunciation */}
                 <video ref={videoRef} src={ParvinPronunciation} style={{ display: 'none' }}></video>
             </div>
-            <div>
+            <div className="hero-content">
                 <h1>Parvin A. Sattorova</h1>
                 <p>Front-End Software Developer</p>
                 <p>Colorado, USA</p>
-                <Link href="#projects">Check projects below</Link>
+                <div className="hero-links">
+                    <Link href="#projects" className="btn">Check out my work</Link>
+                    <Link href="https://github.com/Sulton88Mehron90/showcase-project/blob/main/src/Images/ParvinASattorova-Resume-November3-2023.docx" className="btn">Download my Resume</Link>
+                </div>
             </div>
         </section>
     );
