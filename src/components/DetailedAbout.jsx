@@ -1,8 +1,12 @@
-import React from 'react';
 import Link from './Link';
 import '../components/DetailedAbout.css'
+import React, { useEffect } from 'react';
 
 const DetailedAbout = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);  // Scroll to the top of the page
+  }, []);
+
   return (
     <section id='detailed-about' className='detailed-about divider'>
       <h2>About Me</h2>
