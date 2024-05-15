@@ -724,6 +724,29 @@ header {
   transform: translateY(-2px);
 }
 
+.read-more-link, .send-message {
+  color:whitesmoke; 
+}
+
+.read-more-link:hover, .send-message:hover {
+  color: #005f73; 
+}
+
+.toast-container {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  position: fixed;
+  width: auto;
+}
+
+.toast-container .Toastify__toast--success,
+.toast-container .Toastify__toast--error {
+  background-color: var(--primary);
+  color: var(--white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* FOOTER */
 
 footer {
