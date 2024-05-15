@@ -1,4 +1,6 @@
 import { Icons } from './Icons';
+import {Link } from 'react-router-dom'
+import '../index.css'
 
 const Contact = () => {
   return (
@@ -22,6 +24,7 @@ const Contact = () => {
           <Icons.Facebook />
         </a>
       </div>
+      <Link to="/contact-form" className="send-message">Message me...</Link>
     </section>
   );
 };

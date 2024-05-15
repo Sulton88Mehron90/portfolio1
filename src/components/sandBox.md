@@ -1210,3 +1210,16 @@ header button:hover {
   background-color: var(--primary-shadow);
   transform: translateY(-2px);
 }
+
+///
+Formspree Setup
+Go to Formspree.
+Sign up and create a new form.
+Replace YOUR_FORM_ID in the fetch URL in ContactForm.js with your actual Formspree form ID (it will look something like https://formspree.io/f/your_form_id).
+
+To make the notification of a sent message more modern and user-friendly, we can use a toast notification. This approach provides a non-intrusive, visually appealing way to notify users of the status of their message.
+
+We'll use a third-party library called react-toastify for this purpose. First, you need to install the library:
+
+npm install react-toastify
+
