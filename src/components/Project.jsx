@@ -45,13 +45,13 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../index.css'
+import '../index.css';
 
 const Project = ({ data, reverse }) => {
   return (
     <article className={`project ${reverse ? 'reverse' : ''}`}>
-      <a href={data.liveLink} target="_blank" rel="noopener noreferrer" className="image">
-        <img src={data.image} alt={data.title} />
+      <a href={data.liveLink} target="_blank" rel="noopener noreferrer" className="image-link">
+        <img src={data.image} alt={data.title} className="image" />
       </a>
       <div className="content">
         <h3>{data.title}</h3>
@@ -59,17 +59,16 @@ const Project = ({ data, reverse }) => {
           {data.tech.map((tech, index) => (
             <li key={index}>{tech}</li>
           ))}
-
-<p>{data.description}</p>
         </ul>
+        <p>{data.description}</p>
         <div className="links">
-          <a href={data.liveLink} target="_blank" rel="noopener noreferrer" className="live-demo-link">
-            Live Site
-          </a>
-          <a href={data.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
-            GitHub
-          </a>
-        </div>
+        <a href={data.liveLink} target="_blank" rel="noopener noreferrer" className="live-demo-link">
+          Live Site
+        </a>
+        <a href={data.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
+          GitHub
+        </a>
+      </div>
       </div>
     </article>
   );

@@ -196,7 +196,7 @@ const Projects = () => {
           <Project key={project.id} data={project} reverse={i % 2 === 0} />
         ))}
       </div>
-      <Link to="/detailed-projects" className="read-more-link">More Projects ... </Link>
+      <Link to="/detailed-projects" className="read-more-link">Load More Projects ...</Link>
     </section>
   );
 };
