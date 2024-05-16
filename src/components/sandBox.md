@@ -1358,3 +1358,104 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+///
+
+
+/* 
+.project {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem; 
+  border-radius: 8px; 
+  background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.project .image-link {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem; 
+  aspect-ratio: 16/9;
+  border-radius: 4px;
+  overflow: hidden;
+  text-decoration: none; 
+}
+
+.project .image {
+  width: 100%;
+  height: auto;
+}
+
+.project .links {
+  display: flex;
+  gap: 0.5rem; 
+  justify-content: center;
+  margin-bottom: 1rem; 
+}
+
+.project .links a {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: var(--primary);
+  color: var(--white);
+  text-decoration: none;
+  font-size: 0.9rem; 
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project .links a:hover {
+  background-color: var(--primary-shadow);
+  transform: translateY(-2px);
+}
+
+.project .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+  text-align: center;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  color: var(--headings);
+  margin-bottom: 0.5rem;
+}
+
+.project .tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+.project .tech-item {
+  padding: 0.4rem 0.7rem;
+  border-radius: 10px;
+  font-size: 0.8rem; 
+  background-color: #f4f4f4; 
+  color: var(--tech-color); 
+  box-shadow: 0 1px var(--primary-shadow);
+}
+
+.project .description {
+  font-size: 0.9rem; 
+  line-height: 1.6;
+  color: var(--body-text);
+  margin-bottom: 0;
+}
+ */

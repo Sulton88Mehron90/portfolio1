@@ -45,7 +45,7 @@ export const projectList = [
     title: 'Refuge - AidConnect/RefugeeAid',
     tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'GitHub', 'GraphQL', 'Apollo Client'],
     description:
-      'App stands as a beacon for change, seamlessly bridging the gap between aid workers, compassionate citizens, and those in dire need within displaced communities. It offers a real-time feed of specific needs, ensuring targeted, efficient, and impactful assistance. This platform embodies the spirit of global solidarity, enabling connections that empower and unite.',
+      'Team project. App stands as a beacon for change, seamlessly bridging the gap between aid workers, compassionate citizens, and those in dire need within displaced communities. It offers a real-time feed of specific needs, ensuring targeted, efficient, and impactful assistance. This platform embodies the spirit of global solidarity, enabling connections that empower and unite.',
     liveLink: 'https://refugee-aid-fe.vercel.app/',
     githubLink: 'https://github.com/Refugee-Aid-Capstone/refugee-aid-fe',
     image: refuge,
@@ -78,7 +78,7 @@ export const projectList = [
     title: 'FitChicks',
     tech: ['JavaScript', 'HTML5', 'CSS', 'Webpack', 'Fetch API', 'Figma', 'GitHub', 'Adobe Photoshop'],
     description:
-      "FitChicks/FitLit is a web application dedicated to delivering user-friendly and comprehensive dashboards that depict user's daily habits. These include sleep patterns, hydration levels, and physical activity metrics. The application provides up-to-date activity data, empowering users with insights about their lifestyle and facilitating informed decisions towards achieving their health goals and milestones.FitChicks/FitLit operates on a local server environment and interacts with dedicated API endpoints to fetch and manipulate user-specific data. Moreover, FitLit supports user interactivity allowing users to add new hydration records and daily activity notes, which aids in further customizing their health-tracking experience.",
+      "Team project. FitChicks/FitLit is a web application dedicated to delivering user-friendly and comprehensive dashboards that depict user's daily habits. These include sleep patterns, hydration levels, and physical activity metrics. The application provides up-to-date activity data, empowering users with insights about their lifestyle and facilitating informed decisions towards achieving their health goals and milestones.FitChicks/FitLit operates on a local server environment and interacts with dedicated API endpoints to fetch and manipulate user-specific data. Moreover, FitLit supports user interactivity allowing users to add new hydration records and daily activity notes, which aids in further customizing their health-tracking experience.",
     liveLink: 'https://fitlit-group-project-jy-jm-ps.vercel.app/',
     githubLink: 'https://github.com/Sulton88Mehron90/fitlit-group-project-jy-jm-ps',
     image: fitChicks,
@@ -89,7 +89,7 @@ export const projectList = [
     title: 'Rancid Tomatillos',
     tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'GitHub', 'Heroku'],
     description:
-      'Welcome to Rancid Tomatillos, your go-to platform for all things cinema! Browse our extensive library of movies, delve into detailed information on each film, and even watch trailers. Use the search feature to find movies that pique your interest, or filter films based on ratings to discover hidden gems.',
+      'Team project. Welcome to Rancid Tomatillos, your go-to platform for all things cinema! Browse our extensive library of movies, delve into detailed information on each film, and even watch trailers. Use the search feature to find movies that pique your interest, or filter films based on ratings to discover hidden gems.',
     liveLink: 'https://rancid-tomatillos-denzel-parvin.vercel.app/',
     githubLink: 'https://github.com/Sulton88Mehron90/rancid-tomatillos-denzel-parvin',
     image: rancidTomatillos,
@@ -111,7 +111,7 @@ export const projectList = [
     title: 'Parks Passport',
     tech: ['React', 'React Router', 'TypeScript', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Fetch API', 'Figma', 'GitHub'],
     description:
-      "Created a web application that allows a user to browse National Parks, look further into details about a chosen park, and view, save, and remove parks in their favorites. Used data from the public NPS API to make a modern and sleek app that displays the parks data in a more pleasing and easily navigated UI. Collaborated within a dynamic team of three to develop a React project, while gaining proficiency in TypeScript, implementing routing with React Router, and performing end-to-end testing using Cypress.",
+      "Team project. Created a web application that allows a user to browse National Parks, look further into details about a chosen park, and view, save, and remove parks in their favorites. Used data from the public NPS API to make a modern and sleek app that displays the parks data in a more pleasing and easily navigated UI. Collaborated within a dynamic team of three to develop a React project, while gaining proficiency in TypeScript, implementing routing with React Router, and performing end-to-end testing using Cypress.",
     liveLink: 'https://stretch-tech-pi.vercel.app/',
     githubLink: 'https://github.com/Sulton88Mehron90/stretchTech',
     image: parkPassport,
@@ -144,7 +144,7 @@ export const projectList = [
     title: "What's Cookin'?",
     tech: ['JavaScript', 'HTML', 'CSS', 'Webpack', 'Mocha', 'Chai', 'Fetch API', 'Figma', 'Git'],
     description:
-      "What's Cookin'? is a group project completed as a part of Module 2 at Turing School of Software Design's Front-End curriculum. The application hosts a variety of recipes that can be viewed as a whole, by course (salads, hor d'oevres, main courses, sides), or searched by a tag or recipe name to show relevent recipes. When looking at a recipe's page that recipe can be saved to the users saved recipes page. When looking at the saved recipe collection the user may search through their recipes and delete recipes of their choosing.",
+      "Team project. What's Cookin'? is a group project completed as a part of Module 2 at Turing School of Software Design's Front-End curriculum. The application hosts a variety of recipes that can be viewed as a whole, by course (salads, hor d'oevres, main courses, sides), or searched by a tag or recipe name to show relevent recipes. When looking at a recipe's page that recipe can be saved to the users saved recipes page. When looking at the saved recipe collection the user may search through their recipes and delete recipes of their choosing.",
     liveLink: 'https://whats-cookin-group-project.vercel.app/',
     githubLink: 'https://github.com/JamieCaudill/whats-cookin-group-project',
     image: whatsCookin,
@@ -155,7 +155,7 @@ export const projectList = [
     title: 'ColoRandom',
     tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
     description:
-      "An app was built that displays a randomized palette of five colors. This app allows users to save their favorite palettes to a collection and delete palettes from their saved collection as needed. A web application was developed using vanilla JavaScript to create a randomized color palette and enable users to save and delete previous palettes. Git Workflow practices were utilized for team collaboration, and the project was optimized to use data models to track the user’s saved palettes and the current palette. Feedback from project managers and mentors was incorporated through ongoing code reviews.",
+      "Team project. An app was built that displays a randomized palette of five colors. This app allows users to save their favorite palettes to a collection and delete palettes from their saved collection as needed. A web application was developed using vanilla JavaScript to create a randomized color palette and enable users to save and delete previous palettes. Git Workflow practices were utilized for team collaboration, and the project was optimized to use data models to track the user’s saved palettes and the current palette. Feedback from project managers and mentors was incorporated through ongoing code reviews.",
     liveLink: 'https://andreasorensen.github.io/coloRandom-Team-Project/',
     githubLink: 'https://github.com/andreasorensen/coloRandom-Team-Project',
     image: coloRandom,
@@ -187,7 +187,7 @@ export const projectList = [
 const Projects = () => {
   return (
     <section id="projects" className="divider">
-      <h2>My Projects</h2>
+      <h2>Projects</h2>
       <div>
         {projectList.slice(0, 3).map((project, i) => (
           <Project key={project.id} data={project} reverse={i % 2 === 0} />
