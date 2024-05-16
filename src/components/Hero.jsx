@@ -28,7 +28,7 @@ const Hero = () => {
                 <p>Front-End Software Developer</p>
                 <p>Colorado, USA</p>
                 <div className="hero-links">
-                    <Link href="#projects" className="btn">Check Projects</Link>
+                    <Link href="#projects" className="btn">Check My Projects</Link>
                     <Link href="https://docs.google.com/document/d/1x-aw1oNwc8OdlhFadUd3JvFMhyebqlqM/export?format=docx" className="btn">Download my Resume</Link>
                 </div>
             </div>
