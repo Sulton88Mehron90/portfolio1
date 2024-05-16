@@ -177,7 +177,7 @@ export const projectList = [
     title: 'Idea Box',
     tech: ['React', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Node.js', 'GitHub'],
     description:
-      "",
+      "This application enables users to capture their ideas on virtual cards. Users can input a title and a brief description for their ideas, which will then be displayed on the page.",
     liveLink: 'https://idea-box-one-react.vercel.app/',
     githubLink: 'https://github.com/Sulton88Mehron90/idea-box-one-react',
     image: ideaBox,
