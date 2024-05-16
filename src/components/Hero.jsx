@@ -5,7 +5,7 @@ import namePrononce from '../assets/namePronunce15.png';
 import ParvinPronunciation from '../assets/ParvinPronunciation.mov';
 
 const Hero = () => {
-    const videoRef = useRef(null); 
+    const videoRef = useRef(null);
 
     const playPronunciation = () => {
         if (videoRef.current) {
@@ -29,7 +29,7 @@ const Hero = () => {
                 <p>Colorado, USA</p>
                 <div className="hero-links">
                     <Link href="#projects" className="btn">Check Projects</Link>
-                    <Link href="https://docs.google.com/document/d/1egLhxEtaT5PdwMK0A4qh9j5EmbBL68fF/export?format=docx" className="btn">Download my Resume</Link>
+                    <Link href="https://docs.google.com/document/d/1x-aw1oNwc8OdlhFadUd3JvFMhyebqlqM/export?format=docx" className="btn">Download my Resume</Link>
                 </div>
             </div>
         </section>
