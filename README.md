@@ -5,7 +5,7 @@
   </h1>
 </div>
 
-Welcome to my personal portfolio! This portfolio showcases a collection of my projects, collaborations, and the skills I have acquired over the years. It's a reflection of my journey as a Front-End Developer and the work I am passionate about.
+Welcome to my personal portfolio! This portfolio showcases a collection of my projects, collaborations, and the skills I have acquired. It's a reflection of my journey as a Front-End Developer and the work I am passionate about.
 
 <img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/11311fac-e5a5-4ee8-aa0c-f1008cb1ad03">
 
@@ -39,7 +39,6 @@ My portfolio is built using modern web technologies:
   <a href="https://www.w3schools.com/css/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" style="margin: 10px;"></a>
   <a href="https://react.dev/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" style="margin: 10px;"></a>
   <a href="https://github.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" style="margin: 10px;"></a>
-  <a href="https://vercel.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/vercel-icon.svg" alt="Vercel" height="50" style="margin: 10px;"></a>
 </div>
 
 <img width="504" alt="image" src="https://github.com/Sulton88Mehron90/showcase-project/assets/119267809/11311fac-e5a5-4ee8-aa0c-f1008cb1ad03">
