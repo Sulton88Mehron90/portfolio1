@@ -24,7 +24,7 @@ const Contact = () => {
           <Icons.Facebook />
         </a>
       </div>
-      <Link to="/contact-form" className="send-message">Message me...</Link>
+      <Link to="/contact-form" className="send-message">Message me ...</Link>
     </section>
   );
 };

@@ -50,7 +50,7 @@ My portfolio is built using modern web technologies:
    ```
 2. Navigate to the project directory:
    ```
-   cd portfolio
+   cd portfolio1
    ```
 3. Install dependencies:
    ```
