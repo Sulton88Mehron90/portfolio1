@@ -12,6 +12,7 @@ import Rubaiyat from '../assets/Rubaiyat.png'
 import newsReader from '../assets/newsReader.png'
 import interviewPrepQuestions from '../assets/interviewPrepQuestions.png'
 import flashCards from '../assets/flashCards.png'
+import tenziesGame from '../assets/tenziesGame.png'
 import Project from '../components/Project'
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -181,6 +182,17 @@ export const projectList = [
     liveLink: 'https://idea-box-one-react.vercel.app/',
     githubLink: 'https://github.com/Sulton88Mehron90/idea-box-one-react',
     image: ideaBox,
+  },
+
+  {
+    id: 16,
+    title: 'Tenzies Game',
+    tech: ['React', 'JavaScript', 'HTML5', 'CSS', 'GitHub'],
+    description:
+      "The Tenzies Game is a dynamic and interactive dice game. It is designed to provide an enjoyable gaming experience with a clean and responsive design.",
+    liveLink: 'https://tenzies-ochre-ten.vercel.app/',
+    githubLink: 'https://github.com/Sulton88Mehron90/TENZIES',
+    image: tenziesGame,
   }
 ];
 
