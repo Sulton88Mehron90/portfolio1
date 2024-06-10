@@ -401,6 +401,7 @@ header {
   padding: 0.5rem 1rem;
   border-radius: 8px;
   background-color: var(--primary);
+  background-color: #30acf6;
   color: var(--white);
   font-weight: 500;
   text-decoration: none;
@@ -700,6 +701,7 @@ header {
   padding: 0.5rem 1rem;
   border-radius: 8px;
   background-color: var(--primary);
+  background-color:#30acf6;
   color: var(--white);
   font-weight: 500;
   text-decoration: none;
@@ -709,6 +711,7 @@ header {
 
 .send-message:hover {
   background-color: var(--primary-shadow);
+  /* background-color: var(--primary); */
   transform: translateY(-2px);
 }
 
