@@ -320,14 +320,14 @@ header {
 
 /* HERO SECTION */
 
-.hero .image {
+.hero .image-container {
   position: relative;
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
 }
 
-.hero .image:after {
+.hero .image-container:after {
   content: '';
   position: absolute;
   rotate: 10deg;
@@ -339,7 +339,7 @@ header {
   background-position: center;
 }
 
-.hero .image img {
+.hero .image {
   position: relative;
   z-index: 10;
   width: 200px;
@@ -352,8 +352,8 @@ header {
 }
 
 .name-voice {
-  width: 24px;
-  height: 24px;
+  width: 29px; 
+  height: 29px;
   border: none;
   background: none;
   padding: 0;
@@ -365,13 +365,43 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
+  transition: transform 0.3s ease;
+  z-index: 20;
+}
+
+.name-voice:hover {
+  transform: scale(1.1);
 }
 
 .icon-image {
   width: 29px;
   height: 29px;
   border-radius: 50%;
+}
+
+.pleiades-animation {
+  position: absolute;
+  bottom: -39%;
+  right: -15%;
+  width: 30%;
+  height: auto;
+  animation: pleiades 3s ease-out forwards;
+  z-index: 15;
+}
+
+@keyframes pleiades {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+  }
 }
 
 .hero p {
@@ -391,6 +421,124 @@ header {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1200px) {
+  .pleiades-animation {
+    bottom: -25px;
+    right: -25px;
+    width: 55px;
+  }
+
+  .name-voice {
+    bottom: 8px;
+    right: 8px;
+  }
+}
+
+@media (max-width: 992px) {
+  .pleiades-animation {
+    bottom: -60px;
+    right: -20px;
+    width: 30px;
+  }
+
+  .name-voice {
+    bottom: 5px;
+    right: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pleiades-animation {
+    bottom: -36%;
+    right: -14%;
+    width: 25%;
+  }
+
+  .name-voice {
+    bottom: 5px;
+    right: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .pleiades-animation {
+    bottom: -70px;
+    right: -30px;
+    width: 40px;
+  }
+
+  .name-voice {
+    bottom: 2px;
+    right: 2px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .pleiades-animation {
+    bottom: -25%;
+    right: -30%;
+    width: 30%;
+  }
+
+  .name-voice {
+    bottom: 2px;
+    right: 2px;
+  }
+}
+
+
+@media (max-width: 425px) {
+  .pleiades-animation {
+    bottom: -45px;
+    right: -35px;
+    width: 35px;
+  }
+
+  .name-voice {
+    bottom: 0px;
+    right: 0px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .icon-image {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 390px) {
+  .pleiades-animation {
+    bottom: -70px;
+    right: -20px;
+    width: 40px;
+  }
+
+  /* .name-voice {
+    bottom: -5px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+  } */
+
+  .icon-image {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .pleiades-animation {
+    bottom: -65px;
+    right: -25px;
+    width: 35px;
+  }
 }
 
 /* ABOUT */
