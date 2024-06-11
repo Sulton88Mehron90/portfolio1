@@ -385,6 +385,7 @@ header {
   right: -15%;
   width: 30%;
   height: auto;
+  transform: translate(50%, 50%);
   animation: pleiades 3s ease-out forwards;
   z-index: 15;
 }
@@ -427,9 +428,9 @@ header {
 
 @media (max-width: 1200px) {
   .pleiades-animation {
-    bottom: -25px;
-    right: -25px;
-    width: 55px;
+    bottom: -75px;
+    right: -20px;
+    width: 23%;
   }
 
   .name-voice {
@@ -442,7 +443,7 @@ header {
   .pleiades-animation {
     bottom: -60px;
     right: -20px;
-    width: 30px;
+    width: 18%;
   }
 
   .name-voice {
@@ -468,7 +469,7 @@ header {
   .pleiades-animation {
     bottom: -70px;
     right: -30px;
-    width: 40px;
+    width: 21%;
   }
 
   .name-voice {
@@ -494,9 +495,9 @@ header {
 
 @media (max-width: 425px) {
   .pleiades-animation {
-    bottom: -45px;
-    right: -35px;
-    width: 35px;
+    bottom: -65px;
+    right: -25px;
+    width: 20%;
   }
 
   .name-voice {
@@ -516,7 +517,7 @@ header {
   .pleiades-animation {
     bottom: -70px;
     right: -20px;
-    width: 40px;
+    width: 20%;
   }
 
   /* .name-voice {
