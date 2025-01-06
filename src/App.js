@@ -8,10 +8,12 @@ import DetailedAbout from './components/DetailedAbout';
 import About from './components/About';
 import DetailedProjects from './components/DetailedProjects';
 import ContactForm from './components/ContactForm';
+import ParticlesBackground from './components/ParticlesBackground';
 
 export default function App() {
   return (
     <Router>
+       <ParticlesBackground />
       <Header />
       <main>
         <Switch>
