@@ -1,6 +1,6 @@
-import Link from './Link';
-import '../components/DetailedAbout.css'
 import React, { useEffect } from 'react';
+import Link from './Link';
+import '../components/DetailedAbout.css';
 
 const DetailedAbout = () => {
   useEffect(() => {
@@ -10,42 +10,61 @@ const DetailedAbout = () => {
   return (
     <section id='detailed-about' className='detailed-about divider'>
       <h2>About Me</h2>
-      <p>Hello, I hope this finds you well.</p>
       <p>
-        I'd like to introduce myself, I aim to continue learning the craft of
-        becoming a skilled Front-End Software Developer. I've worked in the
-        software industry for 17 years, a period I do not regret. However, the
-        work I truly enjoyed was when it was visually creative, involving the
-        craft of code that brings visuals to the forefront, making people's
-        moments spent on the web or app enjoyable and seamless.
+        As a Frontend Software Developer, I love solving complex problems by
+        creating simple, intuitive, and engaging digital experiences. With a
+        solid foundation in modern JavaScript frameworks like React and a keen
+        eye for detail, I specialize in developing responsive, performant, and
+        accessible web applications.
       </p>
       <p>
-        When I think of the question of what value I would bring to a team,
-        along with my technical skills it's my honesty, loyalty, and dedication.
-        I'm someone who will persevere to complete the task at hand. My journey
-        has been shaped by life experiences as immigrating to the US with my two
-        young sons to prioritizing family above all. Life's lessons have
-        fortified my resilience, adaptability, profound empathy and balance
-        between emotional intelligence and logical reasoning, which I infuse
-        into every action I undertake, every decision I make, and every line of
-        code I draft.
+        I bring to the table more than just technical skills. My journey,
+        shaped by life experiences such as immigrating to the US with my two
+        young sons, has taught me resilience, adaptability, and the value of
+        empathy. These qualities, paired with my dedication to continuous
+        learning, enable me to balance emotional intelligence with logical
+        reasoning in every action I take, every decision I make, and every line
+        of code I write.
+      </p>
+      <h3>What Drives Me & My Toolkit:</h3>
+<ul className="combined-list">
+  <li><strong>Crafting seamless user experiences:</strong> Clean, maintainable code that prioritizes usability.</li>
+  <li><strong>Staying ahead of the curve:</strong> Exploring and integrating new web technologies.</li>
+  <li><strong>Collaborating across teams:</strong> Delivering impactful, user-focused solutions.</li>
+  <li><strong>Core Technologies:</strong> JavaScript (ES6+), TypeScript, HTML5, CSS3.</li>
+  <li><strong>Frameworks/Libraries:</strong> React.</li>
+  <li><strong>State Management:</strong> Context API.</li>
+  <li><strong>Build Tools:</strong> Webpack, Vite, Babel.</li>
+  <li><strong>Version Control:</strong> Git/GitHub.</li>
+  <li><strong>Specializations:</strong> UI/UX best practices, performance optimization, and accessibility (WCAG compliance).</li>
+</ul>
+      <p>
+        I’m proud of the unique path that has brought me to where I am today.
+        Beyond the digital realm, I take immense pride in my heritage and the
+        opportunities the US has provided my family and me. I find joy and
+        valuable lessons in life’s offerings, which inspire me to continue
+        growing and contributing to meaningful projects.
       </p>
       <p>
-        Beyond the digital realm of zeroes and ones, I take immense pride in my
-        heritage and am grateful for every opportunity the US has provided my
-        sons and me. I find joy and valuable lessons in life's offerings.
+        Feel free to explore the projects showcased here and visit my{' '}
+        <a
+          href="https://github.com/Sulton88Mehron90"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          GitHub
+        </a>{' '}
+        for more details on the code behind my work. I look forward to
+        connecting and collaborating with like-minded professionals passionate
+        about web development and innovation.
       </p>
-      <p>
-        I'm hopeful for an opportunity to join a team where I can grow and
-        contribute to achieving the team's goals. If my story resonates with
-        what your company seeks in a team member, I would love to hear from you.
-      </p>
-      <p>Best regards, Parvin</p>
-      <Link href="https://docs.google.com/document/d/1x-aw1oNwc8OdlhFadUd3JvFMhyebqlqM/export?format=docx" className="btn">
+      <Link
+        href="https://docs.google.com/document/d/1x-aw1oNwc8OdlhFadUd3JvFMhyebqlqM/export?format=docx"
+        className="btn"
+      >
         Download my Resume
       </Link>
-
-
     </section>
   );
 };

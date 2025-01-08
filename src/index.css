@@ -982,7 +982,9 @@ footer span {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background-color: #0a9396;
+  /* background-color: #0a9396; */
+  background-color: #E50914;
+  /* background-color: #1CE783; */
   box-shadow: 0 0 20px rgba(10, 147, 150, 0.5), 0 0 40px rgba(10, 147, 150, 0.3);
   pointer-events: none;
   transform: translate(-50%, -50%);
