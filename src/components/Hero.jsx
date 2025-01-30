@@ -130,7 +130,7 @@ const Hero = () => {
                 <p>Colorado, USA</p>
                 <div className="hero-links">
                     <Link href="#projects" className="btn">Check My Projects</Link>
-                    <Link href="https://docs.google.com/document/d/1x-aw1oNwc8OdlhFadUd3JvFMhyebqlqM/export?format=docx" className="btn">Download my Resume</Link>
+                    <Link href="https://docs.google.com/document/d/17_LOEyom4M1bDCU-l8OyQCCTZbrs7O13/export?format=docx" className="btn">Download my Resume</Link>
                 </div>
             </div>
         </section>

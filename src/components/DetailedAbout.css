@@ -1,114 +1,114 @@
 .detailed-about {
-  max-width: 800px; /* Centered container width */
-  margin: 0 auto; /* Center the section */
-  padding: 2rem; /* Add inner spacing */
-  background-color: var(--white); /* Background color */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
-  font-family: 'Roboto', sans-serif; /* Font family */
-  line-height: 1.6; /* Improve readability */
-  text-align: left; /* Left-align all text */
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  text-align: left;
 }
 
 .detailed-about h2 {
-  font-size: 2.5rem; /* Large heading size */
-  font-weight: 400; /* Lighter font weight */
-  color: var(--headings); /* Heading text color */
-  margin-bottom: 1.5rem; /* Spacing below heading */
-  text-align: center; /* Center main heading */
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--headings);
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
 .detailed-about h3 {
-  font-size: 1.5rem; /* Subheading size */
-  font-weight: 600; /* Bold font weight */
-  color: var(--headings); /* Subheading text color */
-  margin-top: 1rem; /* Space above heading */
-  margin-bottom: 0.5rem; /* Space below heading */
-  text-align: left; /* Left-align subheadings */
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--headings);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 .detailed-about p {
-  font-size: 1rem; /* Paragraph text size */
-  color: var(--body-text); /* Paragraph text color */
-  margin-bottom: 1rem; /* Space below each paragraph */
+  font-size: 1rem;
+  color: var(--body-text);
+  margin-bottom: 1rem;
 }
 
 .detailed-about ul {
-  list-style-type: disc; /* Use bullets for lists */
-  margin: 0 0 1rem 1.5rem; /* Consistent margin and indentation */
-  padding-left: 1.5rem; /* Ensure consistent bullet alignment */
-  text-align: left; /* Left-align list items */
+  list-style-type: disc;
+  margin: 0 0 1rem 1.5rem;
+  padding-left: 1.5rem;
+  text-align: left;
 }
 
 .detailed-about ul li {
-  font-size: 1rem; /* List item text size */
-  color: var(--body-text); /* List item text color */
-  margin-bottom: 0.5rem; /* Space between list items */
+  font-size: 1rem;
+  color: var(--body-text);
+  margin-bottom: 0.5rem;
 }
 
 .github-link {
-  color: var(--primary); /* GitHub link color */
-  font-weight: 600; /* Bold text for emphasis */
-  text-decoration: none; /* Remove underline */
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .github-link:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline;
 }
 
 .detailed-about .btn {
-  display: inline-block; /* Block-like button */
-  padding: 0.75rem 1.5rem; /* Button padding */
-  border-radius: 8px; /* Rounded button corners */
-  color: var(--white); /* Button text color */
-  background-color: var(--primary); /* Button background */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Button shadow */
-  font-weight: 500; /* Bold button text */
-  transition: all 0.3s ease; /* Smooth hover transition */
-  text-decoration: none; /* Remove underline */
-  cursor: pointer; /* Pointer cursor */
+  display: inline-block; 
+  padding: 0.75rem 1.5rem; 
+  border-radius: 8px;
+  color: var(--white); 
+  background-color: var(--primary); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  font-weight: 500; 
+  transition: all 0.3s ease; 
+  text-decoration: none; 
+  cursor: pointer;
 }
 
 .detailed-about .btn:hover {
-  background-color: var(--primary-shadow); /* Change background on hover */
-  transform: translateY(-2px); /* Slight upward movement on hover */
+  background-color: var(--primary-shadow); 
+  transform: translateY(-2px);
 }
 
 .what-drives-me-list,
 .toolkit-list {
-  list-style-type: disc; /* Use bullets for both lists */
-  margin: 0 0 1rem 1.5rem; /* Consistent margin and indentation */
-  padding-left: 1.5rem; /* Indentation for bullets */
+  list-style-type: disc; 
+  margin: 0 0 1rem 1.5rem; 
+  padding-left: 1.5rem; 
 }
 
 .what-drives-me-list li,
 .toolkit-list li {
-  font-size: 1rem; /* List item text size */
-  color: var(--body-text); /* Text color */
-  margin-bottom: 0.5rem; /* Space between list items */
+  font-size: 1rem; 
+  color: var(--body-text);
+  margin-bottom: 0.5rem; 
 }
 
 .combined-list {
-  list-style-type: none; /* Remove default bullets */
-  padding: 0; /* Remove extra padding */
+  list-style-type: none;
+  padding: 0;
 }
 
 .combined-list li {
-  margin-bottom: 1rem; /* Add space between items */
-  padding-left: 1.5rem; /* Indent for pseudo-icons */
-  position: relative; /* Position for pseudo-element */
+  margin-bottom: 1rem; 
+  padding-left: 1.5rem; 
+  position: relative; 
 }
 
 .combined-list li::before {
-  content: '•'; /* Add a decorative bullet */
-  color: var(--primary); /* Use primary color for bullet */
-  font-size: 1.25rem; /* Adjust size of bullet */
+  content: '•'; 
+  color: var(--primary);
+  font-size: 1.25rem;
   position: absolute;
   left: 0;
-  top: 0.25rem; /* Align bullet with text */
+  top: 0.25rem;
 }
 
 .combined-list li strong {
-  font-weight: 600; /* Highlight key phrases */
-  color: var(--headings); /* Match headings color */
+  font-weight: 600; 
+  color: var(--headings);
 }

@@ -60,9 +60,9 @@ const DetailedAbout = () => {
         about web development and innovation.
       </p>
       <Link
-        href="https://docs.google.com/document/d/1x-aw1oNwc8OdlhFadUd3JvFMhyebqlqM/export?format=docx"
-        className="btn"
-      >
+    href="https://docs.google.com/document/d/17_LOEyom4M1bDCU-l8OyQCCTZbrs7O13/export?format=docx"
+    className="btn"
+>
         Download my Resume
       </Link>
     </section>

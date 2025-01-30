@@ -1,4 +1,5 @@
 import avicennaMethod from '../assets/avicennaMethod.png'
+import mapingTool from '../assets/mapingTool.png'
 import rancidTomatillos from '../assets/rancidTomatillos.png'
 import refuge from '../assets/refuge.png'
 import fitChicks from '../assets/fitChicks.png'
@@ -32,6 +33,17 @@ export const projectList = [
 
   {
     id: 2,
+    title: 'Mapping Tool',
+    tech: ['JavaScript', 'HTML5', 'CSS', 'Mapbox','GitHub'],
+    description:
+      'Designed to showcase healthcare facilities across various regions, this application provides a dynamic and intuitive interface for exploring locations using advanced mapping and visualization technology. It offers interactive features such as region-based navigation, custom markers, and real-time data integration to enhance user experience and accessibility.',
+    liveLink: 'https://gt-map.vercel.app/',
+    githubLink: 'https://github.com/Sulton88Mehron90/gt-map',
+    image: mapingTool,
+  },
+
+  {
+    id: 3,
     title: 'News Reader',
     tech: ['React', 'React Router', 'TypeScript', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'API', 'Node.js', 'GitHub'],
     description:
@@ -42,7 +54,7 @@ export const projectList = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: 'Refuge - AidConnect/RefugeeAid',
     tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'GitHub', 'GraphQL', 'Apollo Client'],
     description:
@@ -53,7 +65,7 @@ export const projectList = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Interview Prep Questions',
     tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'API', 'Node.js', 'GitHub'],
     description:
@@ -64,7 +76,7 @@ export const projectList = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: 'Rubaiyat of Omar Khayyam.',
     tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'GitHub'],
     description:
@@ -75,7 +87,7 @@ export const projectList = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: 'FitChicks',
     tech: ['JavaScript', 'HTML5', 'CSS', 'Webpack', 'Fetch API', 'Figma', 'GitHub', 'Adobe Photoshop'],
     description:
@@ -86,7 +98,7 @@ export const projectList = [
   },
 
   {
-    id: 7,
+    id: 8,
     title: 'Rancid Tomatillos',
     tech: ['React', 'React Router', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Figma', 'GitHub', 'Heroku'],
     description:
@@ -97,7 +109,7 @@ export const projectList = [
   },
 
   {
-    id: 8,
+    id: 9,
     title: 'Travel Tracker',
     tech: ['JavaScript', 'HTML5', 'CSS', 'Webpack', 'Adobe Photoshop', 'Figma', 'GitHub'],
     description:
@@ -108,7 +120,7 @@ export const projectList = [
   },
 
   {
-    id: 9,
+    id: 10,
     title: 'Parks Passport',
     tech: ['React', 'React Router', 'TypeScript', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Fetch API', 'Figma', 'GitHub'],
     description:
@@ -119,7 +131,7 @@ export const projectList = [
   },
 
   {
-    id: 10,
+    id: 11,
     title: 'Rock-Paper-Scissors',
     tech: ['JavaScript', 'HTML', 'CSS'],
     description:
@@ -130,7 +142,7 @@ export const projectList = [
   },
 
   {
-    id: 11,
+    id: 12,
     title: 'FlashCards Starter Kit',
     tech: ['JavaScript', 'HTML', 'CSS'],
     description:
@@ -141,7 +153,7 @@ export const projectList = [
   },
 
   {
-    id: 12,
+    id: 13,
     title: "What's Cookin'?",
     tech: ['JavaScript', 'HTML', 'CSS', 'Webpack', 'Mocha', 'Chai', 'Fetch API', 'Figma', 'Git'],
     description:
@@ -152,7 +164,7 @@ export const projectList = [
   },
 
   {
-    id: 13,
+    id: 14,
     title: 'ColoRandom',
     tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
     description:
@@ -163,7 +175,7 @@ export const projectList = [
   },
 
   {
-    id: 14,
+    id: 15,
     title: 'Self-Care Center',
     tech: ['JavaScript', 'HTML', 'CSS', 'GitHub'],
     description:
@@ -174,7 +186,7 @@ export const projectList = [
   },
 
   {
-    id: 15,
+    id: 16,
     title: 'Idea Box',
     tech: ['React', 'JavaScript', 'HTML5', 'CSS', 'Cypress', 'Node.js', 'GitHub'],
     description:
@@ -185,7 +197,7 @@ export const projectList = [
   },
 
   {
-    id: 16,
+    id: 17,
     title: 'Tenzies Game',
     tech: ['React', 'JavaScript', 'HTML5', 'CSS', 'GitHub'],
     description:
